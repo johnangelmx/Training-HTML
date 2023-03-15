@@ -1,0 +1,42 @@
+.border {
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* column: Pone en columna los items. 
+    column-reverse: Pone en columna de manera inversa. 
+    row: permite poner fila los items. 
+    row-reverse: permite poner en fila los items de manera inversa */
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap;  especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas*/
+    /* justify-content: space-around; */
+    /* align-content: center; */
+
+    background-color: #ecf0f1;
+}
+
+/* flex-grow
+flex-shrink
+flex-basis */
+#one {
+    background-color: #e74c3c;
+    width: 200px;
+    height: 200px;
+    /* flex-grow: 8; */
+}
+
+#two {
+    background-color: #9b59b6;
+    width: 200px;
+    height: 200px;
+    /* flex-shrink: 0; */
+}
+
+#three {
+    background-color: #f1c40f;
+    width: 200px;
+    height: 200px;
+    /* flex-basis: 500px; */
+}

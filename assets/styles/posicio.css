@@ -6,12 +6,12 @@
     color: white;
 }
 
-#two {
+/* #two {
     position: absolute;
     top: 20px;
     left: 20px;
     background: palevioletred;
-}
+} */
 
 .texto1 {
     width: 600px;
@@ -25,5 +25,5 @@
     /* position: absolute; */
     /* position: fixed; */
     /* position: relative; */
-    position: sticky;
+    position: inherit;
 }
