@@ -1,0 +1,29 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: pink;
+    color: white;
+}
+
+#two {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+
+.texto1 {
+    width: 600px;
+    height: 400px;
+    /* overflow: scroll; */
+    padding-left: 150px;
+}
+
+#three {
+    background-color: blue;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: relative; */
+    position: sticky;
+}

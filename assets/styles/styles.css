@@ -1,0 +1,25 @@
+/* Menu */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+nav {
+    background-color: orchid;
+    width: auto;
+    height: 50px;
+    word-spacing: 55px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 15px;
+}
